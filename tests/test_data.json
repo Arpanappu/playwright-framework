@@ -1,0 +1,22 @@
+[
+  {
+    "username": "standard_user",
+    "password": "secret_sauce",
+    "expected": "inventory"
+  },
+  {
+    "username": "standard_user",
+    "password": "wrong_pass",
+    "expected": "Epic sadface"
+  },
+  {
+    "username": "",
+    "password": "",
+    "expected": "Username is required"
+  },
+  {
+    "username": "",
+    "password": "secret_sauce",
+    "expected": "Username is required"
+  }
+]

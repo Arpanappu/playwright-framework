@@ -1,0 +1,27 @@
+
+
+
+-near by shop will get notification about unavailability
+
+
+
+product , service , Shop
+
+- open time shouldbe their
+-Subscription to be added   {* added}
+
+Country 
+State 
+pin code
+
+- Banner of a perticular store or company
+
+
+Can configure from admin pannel
+
+ -customer supp to be added in merchant app dash board
+
+-discount shoulbe bee added at product view page
+
+-merchant store discount
+

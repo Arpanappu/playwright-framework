@@ -1,0 +1,24 @@
+from playwright.sync_api import sync_playwright
+
+with sync_playwright() as p:
+
+    browser = p.chromium.launch(headless=False, slow_mo=1000)
+    page = browser.new_page()
+
+    print("Opening website")
+    page.goto("https://www.saucedemo.com")
+
+    page.pause()
+
+    print("Entering username")
+    page.fill("#user-name", "standard_user")
+
+    print("Entering password")
+    page.fill("#password", "secret_sauce")
+
+    print("Clicking login")
+    page.click("#login-button")
+
+    page.screenshot(path="after_login.png")
+
+    browser.close()
